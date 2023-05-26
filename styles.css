@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+}
+:root{
+    --green:#4D96A9;
+    --purple:#855FB1;
+    --black:#28283D;
+    --gray:#87879D;
+    --blue:#8FE3F9;
+    --lgpurple:#D9B8FF;
+    --white:#FAFAFA;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 375px;
+    height: 2205px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.meet{
+    margin-top: 48px;
+    display: flex;
+    gap: 5px;
+}
+.circles{
+    display: flex;
+}
+.img1{
+    align-self: end;
+    padding-top: 15px;
+}
+.img2{
+    align-self: top;
+}
+.meettext{
+    align-self: center;
+}
+.bgimg{
+    padding-top: 54px;
+}
+.grpchat{
+    width: 327px;
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.download{
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--green);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+}
+.wisit{
+    width: 139px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.oi{
+    margin-top:64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourimg-div{
+    margin-top:60px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px ;
+}
+.brdr-radius{
+    border-radius: 10px;
+}
+.built{
+    margin-top:56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.footer{
+    width: 375px;
+    height: 420px;
+    margin-top: 50px;
+    position: relative;
+    top:-75px;
+} 
+.footer{
+    background-image: url(./assets/Bitmap\ \(2\).svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+}
+.footer-text-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 20px;
+
+}
+.footer-p{
+    font-size: 18px;
+    color: var(--white);
+    width: 327px;
+    height: 78px;
+}
+.people1{
+    display: none;
+}
+.people2{
+    display: none;
+}
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--black);
+    width: 280px;
+
+}
+h2{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--black);
+    width: 327px;
+
+}
+h3{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--green);
+    text-align: center;
+}
+h4{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--gray);
+    width: 327px;
+}
+
